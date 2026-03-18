@@ -119,7 +119,7 @@ $$m^{e \cdot d} = m^{1 + k\varphi(n)} = m \cdot (m^{\varphi(n)})^k \equiv m \cdo
 
 Наилучший известный классический алгоритм — **решето числового поля** (General Number Field Sieve, GNFS) — имеет **субэкспоненциальную** сложность:
 
-$$T(n) = \exp\left(c \cdot (\ln n)^{1/3} \cdot (\ln \ln n)^{2/3}\right)$$
+$$T(n) = \exp \bigl( c \cdot (\ln n)^{1/3} \cdot (\ln \ln n)^{2/3} \bigr)$$
 
 где $c \approx 1.923$ для факторизации.
 

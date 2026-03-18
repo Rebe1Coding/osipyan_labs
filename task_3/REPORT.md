@@ -59,7 +59,7 @@ $$\Sigma_0 = (M^{\ast}, Q, C^{\ast}, E(m), D(c) \mid V(E(m), D(c)))$$
 
 Код Варшамова-Тененгольца $VT_a(n)$ определяется как множество двоичных слов длины $n$, удовлетворяющих условию:
 
-$$VT_a(n) = \left\{ x = (x_1, x_2, \ldots, x_n) \in \{0,1\}^n \;\middle|\; \sum_{i=1}^{n} i \cdot x_i \equiv a \pmod{n+1} \right\}$$
+$$VT_a(n) = \lbrace x = (x_1, x_2, \ldots, x_n) \in \lbrace 0,1 \rbrace^{n} \mid \sum_{i=1}^{n} i \cdot x_i \equiv a \pmod{n+1} \rbrace$$
 
 где:
 - $n$ — длина кодового слова;

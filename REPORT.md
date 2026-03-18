@@ -149,7 +149,7 @@ $$2^r \geq k + r + 1$$
 
 Код определяется как:
 
-$$VT_a(n) = \left\{ x \in \{0,1\}^n \;\middle|\; \sum_{i=1}^{n} i \cdot x_i \equiv a \pmod{n+1} \right\}$$
+$$VT_a(n) = \lbrace x \in \lbrace 0,1 \rbrace^{n} \mid \sum_{i=1}^{n} i \cdot x_i \equiv a \pmod{n+1} \rbrace$$
 
 ### 4.3. Синдром Варшамова
 
@@ -222,7 +222,7 @@ $$D(E(m)) = m^{e \cdot d} = m^{1 + k\varphi(n)} = m \cdot (m^{\varphi(n)})^k \eq
 
 Наилучший классический алгоритм — решето числового поля (GNFS):
 
-$$T(n) = \exp\left(c \cdot (\ln n)^{1/3} \cdot (\ln \ln n)^{2/3}\right), \quad c \approx 1.923$$
+$$T(n) = \exp \bigl( c \cdot (\ln n)^{1/3} \cdot (\ln \ln n)^{2/3} \bigr), \quad c \approx 1.923$$
 
 | Размер ключа (бит) | Уровень безопасности | Статус |
 |---|---|---|
